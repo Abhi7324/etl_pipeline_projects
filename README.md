@@ -1,5 +1,5 @@
 # E-COMMERCE ETL PIPELINE (AWS + PYTHON)
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline
 for e-commerce data using Python and AWS.
@@ -44,7 +44,7 @@ JSON
 
 Relational Database (MySQL)
 
-NOTEBOOK STRUCTURE
+## NOTEBOOK STRUCTURE
 
 Import Libraries
 
@@ -65,8 +65,6 @@ Raw JSON data converted into structured Pandas DataFrames
 
 Data Transformation
 
-Handles missing and inconsistent values
-
 Normalizes nested JSON structures
 
 Renames columns for clarity
@@ -83,7 +81,7 @@ Data Loading
 
 Loads cleaned data into database tables.
 
-OUTPUT
+## OUTPUT
 
 Cleaned and structured e-commerce data stored in a relational database
 
@@ -95,7 +93,7 @@ BI dashboards
 
 Reporting pipelines
 
-KEY HIGHLIGHTS
+## KEY HIGHLIGHTS
 
 Cloud-based data ingestion using AWS S3
 
